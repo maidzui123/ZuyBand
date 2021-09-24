@@ -126,7 +126,7 @@ html {
 #slider {
     padding-top: 50%;
     margin-top: 46px;
-    background: url('/assets/image/chicago.jpg') top center / cover no-repeat;
+    background: url(https://www.w3schools.com/bootstrap/chicago.jpg) top center / cover no-repeat;
     position: relative;
 }
 #slider .slider-text {
