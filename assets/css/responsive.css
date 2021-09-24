@@ -1,0 +1,87 @@
+/* for PC */
+@media (min-width: 64em) {
+    
+}
+/* for tablet and mobile */ 
+@media (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding: 12px 12px;
+    }
+    .name-input,.email-input,.message-input {
+        padding: 15px;
+    }
+    .contact-infor {
+        line-height: 2.0;
+    }
+    .social-list {
+        font-size: 30px;
+    }
+    .social-list a {
+        margin: 0 8px;
+    }
+} 
+/* for tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+/* for mobile */
+@media (max-width: 46.1875em) {
+    #main {
+        overflow: hidden;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 13px 41px;
+        display: inline-block;
+        width: 100%;
+    }
+    #nav  li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header .nav-search {
+        display: none;
+    }
+    #header .mobile-menu {
+        display: block;
+    }
+    .width-full {
+        width: 100% !important;
+    }
+    .team-section .team-member {
+        float: none;
+    }
+    .team-member .member-img {
+        width: 60%;
+    }
+    .button-ticket {
+        text-align: center;
+    }
+    .contact-box .contact-infor {
+        line-height: 27px;
+        display: block;
+        margin-bottom: 32px;
+    }
+    .content-section .contact-input {
+        float: none;
+    }
+    .box-1 {
+        padding-right: 0px;
+    }
+    .box-2 {
+        padding-top: 8px;
+        padding-left: 0px;
+    }
+}
